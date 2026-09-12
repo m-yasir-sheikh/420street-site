@@ -37,6 +37,28 @@ export default function Header() {
           </div>
         </a>
 
+        {/* Navigation Items */}
+        <nav className="hidden md:flex items-center gap-8 text-xs font-mono uppercase tracking-widest text-[#E8E2DA]/70 font-medium">
+          <a
+            href="#waitlist"
+            className="hover:text-[#B47B70] transition-colors duration-200"
+          >
+            Overview
+          </a>
+          <a
+            href="#features"
+            className="hover:text-[#B47B70] transition-colors duration-200"
+          >
+            Capabilities
+          </a>
+          <a
+            href="#audience"
+            className="hover:text-[#B47B70] transition-colors duration-200"
+          >
+            Solutions
+          </a>
+        </nav>
+
         {/* Early Access CTA */}
         <div>
           <a

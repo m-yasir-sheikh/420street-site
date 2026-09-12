@@ -24,7 +24,7 @@ export default function Hero() {
 
           {/* Main Title */}
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-[#E8E2DA] leading-[1.15] mb-6">
-            Enterprise Compliance &amp; Workflow for <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#E8E2DA] via-[#B47B70] to-[#79514B]">Specialized Finance</span>
+            Enterprise Compliance &amp; Workflow for Specialized <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#B47B70] to-[#79514B]">Finance</span>
           </h1>
 
           {/* Subtitle */}
