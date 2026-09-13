@@ -1,110 +1,103 @@
 "use client";
 
-import { ShieldCheck, Share2, Database, CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Database, Share2, ShieldCheck } from "lucide-react";
 
 export default function FeatureGrid() {
   const pillars = [
     {
       icon: ShieldCheck,
-      title: "Verified Compliance",
-      badge: "Institutional Trust",
+      label: "Structured Due Diligence",
+      title: "Compliance Profile",
       description:
-        "Dual-layer KYB/KYC, state licenses, and seed-to-sale data verification.",
+        "KYB/KYC, licensing, cannabis compliance and supporting records in one structured profile.",
       points: [
-        "Automated KYB & UBO screening",
-        "Real-time state license status tracking",
-        "Direct seed-to-sale API verification",
+        "Business, ownership and identity information",
+        "Licence and certification records",
+        "Batch and supply-chain documentation",
       ],
     },
     {
       icon: Share2,
-      title: "Neutral Workflow",
-      badge: "Permissioned Sharing",
+      label: "Permissioned Sharing",
+      title: "Controlled Access",
       description:
-        "Secure permissions for operators to share data packs directly with selected lenders.",
+        "Operators choose which information to share with selected capital providers.",
       points: [
-        "Granular room & data vault access",
-        "Direct-to-lender data pack sharing",
-        "Encrypted diligence audit trails",
+        "Role-based access to relevant records",
+        "Direct capital provider sharing",
+        "Document access history",
       ],
     },
     {
       icon: Database,
-      title: "Immutable Tracking",
-      badge: "Audit-Ready Ledger",
+      label: "Transaction Records",
+      title: "Deal Tracking",
       description:
-        "Bank-grade ledger monitoring for external disbursements and repayments.",
+        "Track funding completed outside 420 Street and repayment progress in one place.",
       points: [
-        "Real-time facility monitoring",
-        "Verifiable disbursement event logs",
-        "Automated repayment schedules & alerts",
+        "Recorded funding and repayment events",
+        "Key documents and agreed terms",
+        "Repayment schedules and status updates",
       ],
     },
   ];
 
   return (
-    <section id="features" className="py-20 md:py-28 bg-[#0A0A0A] relative border-t border-[#292929]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Section Header */}
-        <div className="max-w-3xl mb-16">
-          <div className="text-xs font-mono text-[#B47B70] tracking-widest uppercase mb-2">
+    <section id="features" className="relative border-t border-[#292929] bg-[#151515] py-20 text-[#E8E2DA] md:py-28">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-14 max-w-3xl md:mb-16">
+          <div className="mb-3 text-xs font-mono uppercase tracking-[0.2em] text-[#B47B70]">
             — Core Capabilities
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#E8E2DA]">
-            Three Pillars of Specialized Infrastructure
+          <h2 className="text-3xl font-bold leading-tight tracking-tight text-[#E8E2DA] sm:text-4xl md:text-5xl">
+            Three Pillars of Connected Infrastructure
           </h2>
-          <p className="text-sm sm:text-base text-[#555555] mt-3">
-            Designed specifically to resolve institutional friction in complex compliance environments.
+          <p className="mt-5 max-w-2xl text-base leading-relaxed text-[#555555] sm:text-lg">
+            Built to organise the information and workflows behind compliance and capital decisions.
           </p>
         </div>
 
-        {/* 3-Pillar Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-          {pillars.map((pillar, idx) => {
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-6">
+          {pillars.map((pillar) => {
             const Icon = pillar.icon;
+
             return (
-              <div
-                key={idx}
-                className="group relative p-8 bg-[#151515] border border-[#292929] hover:border-[#B47B70]/60 transition-all duration-300 rounded-sm flex flex-col justify-between"
+              <article
+                key={pillar.title}
+                className="group relative rounded-sm border border-[#292929] bg-[#0A0A0A] p-6 text-[#E8E2DA] transition-colors duration-300 hover:border-[#B47B70]/60 sm:p-8"
               >
-                <div>
-                  <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#292929]">
-                    <div className="p-3 bg-[#0A0A0A] border border-[#292929] rounded-sm group-hover:border-[#B47B70]/40 transition-colors">
-                      <Icon className="w-6 h-6 text-[#B47B70]" />
-                    </div>
-                    <span className="text-[10px] font-mono tracking-widest uppercase px-2.5 py-1 bg-[#292929]/50 text-[#E8E2DA]/80 border border-[#292929]">
-                      {pillar.badge}
-                    </span>
+                <div className="mb-8 flex items-center justify-between gap-4 border-b border-[#292929] pb-6">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-sm border border-[#292929] bg-[#0A0A0A] text-[#B47B70] transition-colors duration-300 group-hover:border-[#B47B70]/50">
+                    <Icon className="h-7 w-7" strokeWidth={1.5} />
                   </div>
-
-                  <h3 className="text-lg font-semibold tracking-tight text-[#E8E2DA] mb-3">
-                    {pillar.title}
-                  </h3>
-
-                  <p className="text-sm text-[#E8E2DA]/80 leading-relaxed mb-6 font-normal">
-                    {pillar.description}
-                  </p>
+                  <span className="border border-[#292929] bg-[#1c1c1c] px-3 py-2 text-right text-[10px] font-mono uppercase tracking-[0.16em] text-[#E8E2DA]/80">
+                    {pillar.label}
+                  </span>
                 </div>
 
-                <div className="pt-4 border-t border-[#292929]/60">
-                  <ul className="space-y-2.5">
-                    {pillar.points.map((point, pIdx) => (
-                      <li key={pIdx} className="flex items-start gap-2 text-xs text-[#E8E2DA]/70">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#B47B70] shrink-0 mt-0.5" />
+                <h3 className="text-2xl font-semibold tracking-tight text-[#E8E2DA]">
+                  {pillar.title}
+                </h3>
+                <p className="mt-4 min-h-[78px] text-base leading-relaxed text-[#E8E2DA]/70">
+                  {pillar.description}
+                </p>
+
+                <div className="mt-7 border-t border-[#292929] pt-6">
+                  <ul className="space-y-4">
+                    {pillar.points.map((point) => (
+                      <li key={point} className="flex items-start gap-3 text-sm leading-relaxed text-[#E8E2DA]/75">
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#B47B70]" strokeWidth={1.6} />
                         <span>{point}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
 
-                {/* Subtle bottom hover line */}
-                <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#B47B70] to-[#79514B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </div>
+                <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[#B47B70] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+              </article>
             );
           })}
         </div>
-
       </div>
     </section>
   );

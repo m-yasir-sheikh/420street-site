@@ -1,128 +1,102 @@
 "use client";
 
-import { Building, Landmark, Check, ArrowRight } from "lucide-react";
+import { ArrowRight, Building2, Check, Landmark } from "lucide-react";
 
 export default function TargetAudience() {
   const capitalProviderBenefits = [
-    "Standardized due diligence & compliance packs",
-    "Real-time facility performance & covenant monitoring",
-    "Automated license verification and risk alerts",
-    "Immutable transaction ledger for disbursements & repayments",
+    "Structured due diligence and compliance profiles",
+    "Financial information and supporting documents",
+    "Controlled access and document history",
+    "Deal terms, repayments and status tracking",
   ];
 
   const operatorBenefits = [
-    "One-time KYB/KYC verification with direct data control",
-    "Selective, permissioned sharing with prospective lenders",
-    "Streamlined facility management & reduced audit overhead",
-    "Direct pathway to institutional debt and growth capital",
+    "One structured business and compliance profile",
+    "Controlled sharing with selected capital providers",
+    "Funding requests and supporting documents",
+    "Terms, repayments and progress in one place",
   ];
 
   return (
-    <section id="audience" className="py-20 md:py-28 bg-[#151515] relative border-t border-[#292929]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="text-xs font-mono text-[#B47B70] tracking-widest uppercase mb-2">
-            — Ecosystem Alignment
-          </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#E8E2DA]">
+    <section id="audience" className="relative border-t border-[#292929] bg-[#0A0A0A] py-16 md:py-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-14 max-w-3xl md:mb-16">
+          <p className="text-xs font-mono uppercase tracking-[0.2em] text-[#B47B70]">— Ecosystem Alignment</p>
+          <h2 className="mt-3 text-3xl font-bold leading-tight tracking-tight text-[#E8E2DA] sm:text-4xl md:text-5xl">
             Built for Capital &amp; Operations
           </h2>
-          <p className="text-sm sm:text-base text-[#555555] mt-3">
+          <p className="mt-5 text-base leading-relaxed text-[#555555] sm:text-lg">
             Providing a neutral, secure infrastructure that aligns the requirements of institutional debt with operational realities.
           </p>
         </div>
 
-        {/* 2-Card Audience Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          
-          {/* Card 1: Capital Providers */}
-          <div className="p-8 bg-[#0A0A0A] border border-[#292929] hover:border-[#B47B70]/60 transition-all duration-300 rounded-sm flex flex-col justify-between relative group">
-            <div>
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#292929]">
-                <div className="p-3 bg-[#151515] border border-[#292929] rounded-sm text-[#B47B70]">
-                  <Landmark className="w-6 h-6" />
-                </div>
-                <div>
-                  <span className="text-[10px] font-mono text-[#B47B70] uppercase tracking-widest block">
-                    Institutional Debt
-                  </span>
-                  <h3 className="text-xl font-semibold tracking-tight text-[#E8E2DA]">
-                    Capital Providers
-                  </h3>
-                </div>
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8">
+          {/* Capital providers card */}
+          <article className="group rounded-sm border border-[#292929] bg-[#0A0A0A] p-6 transition-colors duration-300 hover:border-[#B47B70]/60 sm:p-8 md:p-10">
+            <div className="flex items-start gap-5 border-b border-[#292929] pb-7">
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm border border-[#292929] bg-[#151515] text-[#B47B70]">
+                <Landmark className="h-8 w-8" strokeWidth={1.5} />
               </div>
-
-              <p className="text-xs sm:text-sm text-[#E8E2DA]/80 leading-relaxed mb-6">
-                Deploy capital with confidence. Eliminate manual diligence bottlenecks and monitor borrower compliance continuously post-closing.
-              </p>
-
-              <ul className="space-y-3 mb-8">
-                {capitalProviderBenefits.map((benefit, idx) => (
-                  <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-[#E8E2DA]/90">
-                    <div className="p-1 rounded-full bg-[#151515] border border-[#B47B70]/40 text-[#B47B70] shrink-0 mt-0.5">
-                      <Check className="w-3 h-3" />
-                    </div>
-                    <span>{benefit}</span>
-                  </li>
-                ))}
-              </ul>
+              <div>
+                <p className="text-xs font-mono uppercase tracking-[0.2em] text-[#B47B70]">For Capital Providers</p>
+                <h2 className="mt-2 text-3xl font-semibold tracking-tight text-[#E8E2DA] sm:text-4xl">Review Opportunities</h2>
+              </div>
             </div>
 
-            <a
-              href="#waitlist"
-              className="inline-flex items-center justify-between w-full p-4 bg-[#151515] border border-[#292929] hover:border-[#B47B70] text-xs font-mono uppercase tracking-widest text-[#E8E2DA] transition-all duration-200 group-hover:bg-[#151515]/80"
-            >
-              <span>Access Lender Onboarding</span>
-              <ArrowRight className="w-4 h-4 text-[#B47B70]" />
-            </a>
-          </div>
+            <p className="mt-8 max-w-3xl text-base leading-relaxed text-[#E8E2DA]/75 sm:text-lg">
+              Access structured business, compliance and financial information. Manage review, terms and progress in one place.
+            </p>
 
-          {/* Card 2: Operators */}
-          <div className="p-8 bg-[#0A0A0A] border border-[#292929] hover:border-[#B47B70]/60 transition-all duration-300 rounded-sm flex flex-col justify-between relative group">
-            <div>
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#292929]">
-                <div className="p-3 bg-[#151515] border border-[#292929] rounded-sm text-[#B47B70]">
-                  <Building className="w-6 h-6" />
-                </div>
-                <div>
-                  <span className="text-[10px] font-mono text-[#B47B70] uppercase tracking-widest block">
-                    Licensed Entities
+            <ul className="mt-8 grid gap-5 sm:grid-cols-2">
+              {capitalProviderBenefits.map((benefit) => (
+                <li key={benefit} className="flex items-start gap-3 text-sm leading-relaxed text-[#E8E2DA]/80 sm:text-base">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-[#B47B70]/50 text-[#B47B70]">
+                    <Check className="h-3.5 w-3.5" />
                   </span>
-                  <h3 className="text-xl font-semibold tracking-tight text-[#E8E2DA]">
-                    Operators
-                  </h3>
-                </div>
+                  <span>{benefit}</span>
+                </li>
+              ))}
+            </ul>
+
+            <a href="#waitlist" className="mt-10 flex items-center justify-between border border-[#292929] bg-[#151515] px-5 py-4 text-xs font-mono uppercase tracking-[0.16em] text-[#E8E2DA] transition-colors duration-300 hover:border-[#B47B70]">
+              <span>Request Provider Access</span>
+              <ArrowRight className="h-5 w-5 text-[#B47B70]" />
+            </a>
+          </article>
+
+          {/* Operators card */}
+          <article className="group rounded-sm border border-[#292929] bg-[#0A0A0A] p-6 transition-colors duration-300 hover:border-[#B47B70]/60 sm:p-8 md:p-10">
+            <div className="flex items-start gap-5 border-b border-[#292929] pb-7">
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm border border-[#292929] bg-[#151515] text-[#B47B70]">
+                <Building2 className="h-8 w-8" strokeWidth={1.5} />
               </div>
-
-              <p className="text-xs sm:text-sm text-[#E8E2DA]/80 leading-relaxed mb-6">
-                Take control of your financial data. Securely share verified compliance packs with multiple capital sources without repeating cumbersome paperwork.
-              </p>
-
-              <ul className="space-y-3 mb-8">
-                {operatorBenefits.map((benefit, idx) => (
-                  <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-[#E8E2DA]/90">
-                    <div className="p-1 rounded-full bg-[#151515] border border-[#B47B70]/40 text-[#B47B70] shrink-0 mt-0.5">
-                      <Check className="w-3 h-3" />
-                    </div>
-                    <span>{benefit}</span>
-                  </li>
-                ))}
-              </ul>
+              <div>
+                <p className="text-xs font-mono uppercase tracking-[0.2em] text-[#B47B70]">For Operators</p>
+                <h2 className="mt-2 text-3xl font-semibold tracking-tight text-[#E8E2DA] sm:text-4xl">Present Your Business</h2>
+              </div>
             </div>
 
-            <a
-              href="#waitlist"
-              className="inline-flex items-center justify-between w-full p-4 bg-[#151515] border border-[#292929] hover:border-[#B47B70] text-xs font-mono uppercase tracking-widest text-[#E8E2DA] transition-all duration-200 group-hover:bg-[#151515]/80"
-            >
-              <span>Access Operator Portal</span>
-              <ArrowRight className="w-4 h-4 text-[#B47B70]" />
-            </a>
-          </div>
+            <p className="mt-8 max-w-3xl text-base leading-relaxed text-[#E8E2DA]/75 sm:text-lg">
+              Organise business, compliance and financial information once. Share relevant records with selected capital providers.
+            </p>
 
+            <ul className="mt-8 grid gap-5 sm:grid-cols-2">
+              {operatorBenefits.map((benefit) => (
+                <li key={benefit} className="flex items-start gap-3 text-sm leading-relaxed text-[#E8E2DA]/80 sm:text-base">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-[#B47B70]/50 text-[#B47B70]">
+                    <Check className="h-3.5 w-3.5" />
+                  </span>
+                  <span>{benefit}</span>
+                </li>
+              ))}
+            </ul>
+
+            <a href="#waitlist" className="mt-10 flex items-center justify-between border border-[#292929] bg-[#151515] px-5 py-4 text-xs font-mono uppercase tracking-[0.16em] text-[#E8E2DA] transition-colors duration-300 hover:border-[#B47B70]">
+              <span>Request Operator Access</span>
+              <ArrowRight className="h-5 w-5 text-[#B47B70]" />
+            </a>
+          </article>
         </div>
-
       </div>
     </section>
   );

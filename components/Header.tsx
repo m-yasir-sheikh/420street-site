@@ -31,6 +31,7 @@ export default function Header() {
               src="/logo-white.png"
               alt="420 STREET"
               fill
+              sizes="(min-width: 640px) 160px, 144px"
               className="object-contain object-left"
               priority
             />
@@ -59,16 +60,18 @@ export default function Header() {
           </a>
         </nav>
 
-        {/* Early Access CTA */}
-        <div>
-          <a
-            href="#waitlist"
-            className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-[#0A0A0A] bg-[#B47B70] hover:bg-[#E8E2DA] transition-all duration-300 rounded-sm shadow-md"
-          >
-            <span>Early Access</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </a>
-        </div>
+        {/* Early Access CTA appears after scrolling */}
+        {scrolled && (
+          <div>
+            <a
+              href="#waitlist"
+              className="inline-flex items-center gap-2 rounded-sm bg-[#B47B70] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-[#0A0A0A] shadow-md transition-all duration-300 hover:bg-[#E8E2DA]"
+            >
+              <span>Early Access</span>
+              <ArrowRight className="h-3.5 w-3.5" />
+            </a>
+          </div>
+        )}
       </div>
     </header>
   );

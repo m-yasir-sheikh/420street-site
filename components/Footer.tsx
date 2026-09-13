@@ -6,78 +6,79 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#0A0A0A] border-t border-[#292929] pt-16 pb-12 text-[#E8E2DA]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-[#292929]">
-          
-          {/* Brand Info */}
-          <div className="md:col-span-6 space-y-4">
+    <footer className="border-t border-[#292929] bg-[#0A0A0A] pb-10 pt-16 text-[#E8E2DA]">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-12 border-b border-[#292929] pb-12 md:grid-cols-12 md:gap-10">
+          {/* Brand */}
+          <div className="space-y-5 md:col-span-6">
             <div className="relative h-9 w-40">
               <Image
                 src="/logo-white.png"
                 alt="420 STREET"
                 fill
+                sizes="160px"
                 className="object-contain object-left"
               />
             </div>
-            <p className="text-xs text-[#555555] max-w-md leading-relaxed">
-              420 Street provides enterprise compliance and workflow software for specialized finance institutions and operators.
+            <p className="max-w-md text-sm leading-relaxed text-[#555555]">
+              420 Street provides compliance, information-sharing and deal-workflow software for cannabis and hemp operators and capital providers.
             </p>
           </div>
 
-          {/* Navigation */}
+          {/* Platform links */}
           <div className="md:col-span-3">
-            <h4 className="text-xs font-mono uppercase tracking-widest text-[#B47B70] mb-4">
-              Infrastructure
-            </h4>
-            <ul className="space-y-2.5 text-xs text-[#E8E2DA]/80 font-mono uppercase">
+            <h2 className="mb-5 text-xs font-mono uppercase tracking-[0.18em] text-[#B47B70]">
+              Platform
+            </h2>
+            <ul className="space-y-3 text-sm text-[#E8E2DA]/75">
               <li>
-                <a href="#waitlist" className="hover:text-[#B47B70] transition-colors">
+                <a href="#waitlist" className="transition-colors hover:text-[#B47B70]">
                   Early Access
                 </a>
               </li>
               <li>
-                <a href="#features" className="hover:text-[#B47B70] transition-colors">
+                <a href="#features" className="transition-colors hover:text-[#B47B70]">
                   Capabilities
                 </a>
               </li>
               <li>
-                <a href="#audience" className="hover:text-[#B47B70] transition-colors">
+                <a href="#audience" className="transition-colors hover:text-[#B47B70]">
                   Solutions
+                </a>
+              </li>
+              <li>
+                <a href="#how-it-works" className="transition-colors hover:text-[#B47B70]">
+                  How It Works
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Regulatory Notice */}
+          {/* Data & access */}
           <div className="md:col-span-3">
-            <h4 className="text-xs font-mono uppercase tracking-widest text-[#B47B70] mb-4">
-              Compliance
-            </h4>
-            <p className="text-[11px] text-[#555555] font-mono leading-relaxed">
-              Bank-grade security standards &amp; permissioned data encryption.
+            <h2 className="mb-5 text-xs font-mono uppercase tracking-[0.18em] text-[#B47B70]">
+              Data &amp; Access
+            </h2>
+            <p className="text-sm leading-relaxed text-[#555555]">
+              Operators control what they share. Capital providers access only the information they need.
             </p>
           </div>
-
         </div>
 
-        {/* Disclaimer & Copyright */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-[11px] font-mono text-[#555555] gap-4">
-          <div className="text-center md:text-left">
-            <p className="text-[#E8E2DA]/60 italic mb-1">
-              &ldquo;420 Street is a technology software provider, not a bank, broker, or financial intermediary.&rdquo;
+        {/* Disclaimer and legal links */}
+        <div className="flex flex-col gap-6 pt-8 text-xs text-[#555555] md:flex-row md:items-end md:justify-between">
+          <div className="max-w-2xl space-y-2 leading-relaxed">
+            <p className="text-[#E8E2DA]/65">
+              420 Street is a software provider. We do not provide financial advice, lending, brokerage or investment services.
             </p>
             <p>&copy; {year} 420 STREET. All rights reserved.</p>
           </div>
 
-          <div className="flex items-center gap-6">
-            <span className="hover:text-[#E8E2DA] cursor-pointer">Privacy Policy</span>
-            <span className="hover:text-[#E8E2DA] cursor-pointer">Terms of Service</span>
-            <span className="text-[#B47B70]">Loops.so Secured</span>
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <a href="#" className="transition-colors hover:text-[#E8E2DA]">Privacy Policy</a>
+            <a href="#" className="transition-colors hover:text-[#E8E2DA]">Terms of Service</a>
           </div>
         </div>
-
       </div>
     </footer>
   );

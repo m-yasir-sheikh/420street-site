@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import FeatureGrid from "@/components/FeatureGrid";
 import TargetAudience from "@/components/TargetAudience";
+import HowItWorks from "@/components/HowItWorks";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <FeatureGrid />
       <TargetAudience />
+      <HowItWorks />
       <Footer />
     </main>
   );
