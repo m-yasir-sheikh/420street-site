@@ -15,7 +15,8 @@ export const metadata: Metadata = {
     "Facility Workflows",
   ],
   icons: {
-    icon: "/logo-white.png",
+    icon: "/favicon.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "420 STREET — Enterprise Compliance & Workflow for Specialized Finance",
