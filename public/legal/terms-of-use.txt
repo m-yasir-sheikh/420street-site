@@ -1,0 +1,167 @@
+Terms of Use
+
+Website, early-access registration and platform terms
+
+Effective date: 13 September 2026
+
+Entity: Caird Capital Pty Ltd - ABN 30 693 472 534
+
+Contact: gen@420street.com.au
+
+This document is a tailored working draft for 420 Street. The bracketed details must be completed and the document reviewed by qualified counsel before the live platform begins paid onboarding or transaction activity.
+
+These Terms of Use govern access to and use of the 420 Street website, platform and related services. The services are operated by Caird Capital Pty Ltd, ABN 30 693 472 534, trading as 420 Street ("420 Street", "we", "us" or "our").
+
+By accessing the website, registering interest, creating an account or using the platform, you agree to these Terms. If you act for an organisation, you confirm that you have authority to bind that organisation. If you do not agree, you must not use the website or platform.
+
+1. The platform
+
+420 Street provides software and information-management tools designed for licensed cannabis and hemp businesses, lenders and other capital providers. Depending on availability, the platform may enable users to:
+
+- create and maintain structured business, ownership, compliance and financial profiles;
+
+- upload licences, certifications, business records and supporting documents;
+
+- prepare or review funding requests and potential opportunities;
+
+- control access to information and documents;
+
+- exchange information and proposed transaction terms; and
+
+- record transaction documents, repayment schedules and status updates.
+
+Features may be introduced, changed, restricted or withdrawn at any time.
+
+2. Software provider only
+
+420 Street is a software and information-services provider. Unless expressly stated in a separate written agreement, 420 Street:
+
+- is not a bank, lender, credit provider, financial adviser, investment adviser, broker, dealer, fiduciary, trustee, escrow provider or insurer;
+
+- does not provide financial, investment, credit, legal, tax, accounting, compliance or other professional advice;
+
+- does not recommend or endorse any user, capital provider, opportunity, transaction or transaction term;
+
+- does not decide whether finance should be offered or accepted;
+
+- does not negotiate or enter transactions on behalf of users;
+
+- does not hold, receive, control or transfer transaction funds;
+
+- is not a party to transactions between users; and
+
+- does not guarantee that funding will be offered, completed or repaid.
+
+3. No offer, solicitation or advice
+
+Information available through 420 Street is provided for general business and workflow purposes only. Nothing on the website or platform constitutes an offer to provide or obtain credit, an offer to buy or sell a financial product or security, financial product advice, credit assistance, investment advice, or a recommendation to enter a transaction. Users must obtain their own independent professional advice.
+
+4. Eligibility
+
+You may use the platform only if you are at least 18, have legal capacity, act for legitimate business or professional purposes, are authorised to represent any organisation named in your account, and are permitted to use the platform under all applicable laws. Access may be restricted to approved users. Registration or an early-access request does not guarantee access.
+
+5. Regulated cannabis and hemp activities
+
+Availability of the platform does not mean that a user, activity, product or transaction is lawful. Each user is solely responsible for:
+
+- holding and maintaining all required licences, permits, registrations and approvals;
+
+- complying with cannabis, hemp, controlled-substance, corporate, financial, tax, trade, import and export laws;
+
+- confirming that its activities are lawful in every relevant jurisdiction;
+
+- accurately describing products, batches, activities and transactions; and
+
+- promptly notifying 420 Street if a licence, approval or legal status changes.
+
+6. Accounts and verification
+
+You must provide accurate, complete and current information, protect account credentials, control access by your personnel, and promptly notify us of suspected unauthorised access. We may require identity, authority, business, ownership, licensing, fraud-prevention or other verification and may use third-party providers.
+
+Verification is based on available information at a particular time. It is not endorsement, certification or approval, does not replace independent due diligence, and does not guarantee identity, authority, compliance, creditworthiness or repayment.
+
+7. User information and documents
+
+You retain ownership of material you submit. You grant 420 Street a non-exclusive, worldwide, royalty-free licence to host, store, reproduce, process, analyse and display that material as reasonably necessary to operate and secure the platform, provide requested features, perform verification and risk-management processes, comply with law, and improve functionality using aggregated or de-identified information.
+
+You confirm that your information is accurate, complete and not misleading; you are authorised to provide it; its use does not breach law, confidentiality or third-party rights; and you will update it promptly. You must not upload information you are not entitled to possess, use or disclose.
+
+8. Permissioned sharing
+
+Operators control which information they authorise 420 Street to make available to selected capital providers, subject to platform settings and legal requirements. When you authorise sharing, you instruct us to provide the selected recipient with access. A recipient may retain information where platform functionality permits. Withdrawing access may not delete copies already lawfully retained.
+
+Capital providers must use accessed information only for legitimate evaluation, due-diligence, transaction-management and compliance purposes and must not improperly disclose, sell or exploit confidential operator information.
+
+9. Capital-provider responsibilities
+
+Each capital provider is solely responsible for determining whether it may lawfully provide capital; maintaining required licences and registrations; conducting its own credit assessment and due diligence; setting its own criteria and terms; preparing and approving transaction documents; complying with lending, disclosure, securities, sanctions, tax and anti-money-laundering requirements; and monitoring and enforcing its transactions.
+
+10. Operator responsibilities
+
+Each operator is solely responsible for assessing whether funding is suitable; reviewing all rates, fees, security, guarantees and repayment obligations; obtaining independent advice; ensuring information supplied is accurate and complete; complying with transaction documents; and making payments directly to the relevant provider or its authorised payment provider. A funding request does not guarantee display, review, approval or funding.
+
+11. Transactions between users
+
+Any agreement between users is separate from these Terms and entered into at their own risk. 420 Street is not responsible for another user's conduct, solvency, authority or performance; transaction negotiations or documents; funding delays or failures; loss of capital; late payment or default; enforcement or insolvency; or disputes between users.
+
+12. Fees
+
+Certain features may require subscription, verification, compliance-processing or other software fees. Applicable fees, billing periods, taxes, renewal arrangements and cancellation rights will be disclosed before purchase or in an order form. Unless required by law or stated otherwise, fees are payable in advance, relate to software and services rather than transaction success, and are non-refundable after the relevant service or subscription period begins.
+
+13. Acceptable use
+
+You must not provide false or misleading information; impersonate another person; use the platform for unlawful activities, fraud, money laundering or sanctions evasion; misuse confidential information; infringe rights; introduce malicious code; interfere with security; scrape, reverse-engineer or commercially exploit the platform; gain unauthorised access; or circumvent verification and access controls.
+
+14. Intellectual property
+
+Rights in the 420 Street name, branding, platform, software, interfaces, databases, templates, workflows and original content belong to 420 Street or its licensors. Eligible users receive only a limited, non-exclusive, non-transferable and revocable right to use the platform for its intended business purposes during authorised access.
+
+15. Third-party services
+
+The platform may integrate with identity, banking, accounting, payment, data, storage or other third-party services. Those services are governed by their own terms and privacy practices. We do not control or guarantee their availability, accuracy, security or performance.
+
+16. Privacy and communications
+
+Personal information is handled under our Privacy Policy. Registration authorises operational communications about access, verification, security and service delivery. Marketing communications will be sent only where permitted by law and may be unsubscribed from at any time.
+
+17. Availability and changes
+
+We do not guarantee uninterrupted, error-free or continuously available access. We may maintain or modify the platform, impose reasonable limits, correct errors, restrict jurisdictions or user categories, or suspend functionality for security, compliance, legal or operational reasons.
+
+18. Suspension and termination
+
+We may suspend, restrict or terminate access where we reasonably believe these Terms were breached, information is false or incomplete, access creates legal or security risk, unlawful conduct may have occurred, payment is overdue, or action is required by law. Termination does not affect accrued rights or provisions intended to survive.
+
+19. Disclaimers
+
+To the maximum extent permitted by law, the platform is provided on an "as available" basis. 420 Street does not warrant that any user or information is accurate, current or reliable; that finance will be provided; that a transaction will be lawful, suitable, profitable, completed or repaid; that the platform satisfies a user's legal obligations; or that use will prevent fraud, default or loss. Nothing excludes a guarantee, right or remedy that cannot lawfully be excluded.
+
+20. Limitation of liability
+
+To the maximum extent permitted by law, 420 Street is not liable for indirect, consequential, special, exemplary or punitive loss, or loss of profit, revenue, opportunity, goodwill, data or anticipated savings. We are not liable for loss arising from user-supplied or third-party information, a transaction between users, a decision to provide or seek capital, default or enforcement, unlawful user conduct, third-party services, or events outside our reasonable control.
+
+Where liability cannot be excluded, our aggregate liability is limited, to the extent permitted by law, to the greater of fees paid by the affected user during the preceding 12 months or AUD $100 where no fees were paid. Nothing limits liability where doing so would be unlawful.
+
+21. Indemnity
+
+To the maximum extent permitted by law, you indemnify 420 Street and its officers, employees and contractors against claims, liabilities, losses and reasonable costs arising from your breach, false or unauthorised information, unlawful use, infringement of another person's rights, or a transaction you enter. This does not apply to the extent a loss was caused by 420 Street's negligence, fraud or wilful misconduct.
+
+22. Confidentiality
+
+Users must protect confidential information obtained through the platform and use it only for its authorised purpose. This does not apply to information that is lawfully public, already lawfully known, independently developed, received lawfully without restriction, or required to be disclosed by law.
+
+23. Changes to these Terms
+
+We may update these Terms to reflect changes to the platform, law or operations. Updated Terms will carry a revised effective date. We will provide reasonable notice of changes materially affecting existing paid users where practicable.
+
+24. Governing law and disputes
+
+These Terms are governed by the laws of Western Australia, Australia. Before commencing proceedings, each party must attempt in good faith to resolve a dispute by written notice and negotiation for at least 20 business days. Either party may seek urgent injunctive or protective relief. Unresolved proceedings may be brought in the courts of Western Australia and courts hearing appeals from them.
+
+25. General
+
+If a provision is invalid or unenforceable, it will be read down or removed to the minimum necessary extent without affecting the remainder. Delay in enforcement is not waiver. You may not assign these Terms without our written consent. We may assign them as part of a restructure, financing, merger, acquisition or business sale. These Terms, the Privacy Policy and any applicable order form form the agreement governing use of the platform.
+
+26. Contact
+
+Caird Capital Pty Ltd trading as 420 Street ABN: 30 693 472 534 Email: gen@420street.com.au Address: Western Australia

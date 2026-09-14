@@ -107,7 +107,7 @@ export default function WaitlistForm({
 
       <p className="mt-3 text-[11px] text-[#555555] flex items-center gap-1.5 font-mono">
         <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#79514B]"></span>
-        Restricted access. Your data remains strictly confidential and will never be shared.
+        Your information is only shared according to the permissions you provide.
       </p>
     </div>
   );

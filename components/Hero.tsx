@@ -40,7 +40,7 @@ export default function Hero() {
 
             <div className="mt-5 flex items-center gap-2 text-xs text-[#555555]">
               <Lock className="h-3.5 w-3.5 text-[#B47B70]" />
-              <span>Bank-grade security &amp; permissioned data encryption.</span>
+              <span>Secure, permission-controlled access to business information.</span>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export default function Hero() {
             <div className="absolute -inset-8 rounded-full bg-[#B47B70]/10 blur-3xl" />
             <div className="relative overflow-hidden rounded-sm border border-[#555555]/60 bg-[#111111] p-2 shadow-2xl glow-rosegold">
               <div className="flex items-center justify-between border-b border-[#292929] px-4 py-3 text-[10px] font-mono uppercase tracking-widest text-[#555555]">
-                <span>420 Street / Facility Vault</span>
+                <span>Platform Preview / Facility Vault</span>
                 <span className="flex items-center gap-1.5 text-[#B47B70]"><Lock className="h-3 w-3" /> Secure</span>
               </div>
 
