@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function TermsPage() {
-  return <LegalDocument title="Terms of Use" textUrl="/legal/terms-of-use.txt" pdfUrl="/legal/terms-of-use.pdf" />;
+  return <LegalDocument title="Terms of Use" textUrl="/legal/terms-of-use.txt" />;
 }

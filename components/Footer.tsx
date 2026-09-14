@@ -32,22 +32,22 @@ export default function Footer() {
             </h2>
             <ul className="space-y-3 text-sm text-[#E8E2DA]/75">
               <li>
-                <a href="#waitlist" className="transition-colors hover:text-[#B47B70]">
+                <a href="/#waitlist" className="transition-colors hover:text-[#B47B70]">
                   Early Access
                 </a>
               </li>
               <li>
-                <a href="#features" className="transition-colors hover:text-[#B47B70]">
+                <a href="/#features" className="transition-colors hover:text-[#B47B70]">
                   Capabilities
                 </a>
               </li>
               <li>
-                <a href="#audience" className="transition-colors hover:text-[#B47B70]">
+                <a href="/#audience" className="transition-colors hover:text-[#B47B70]">
                   Solutions
                 </a>
               </li>
               <li>
-                <a href="#how-it-works" className="transition-colors hover:text-[#B47B70]">
+                <a href="/#how-it-works" className="transition-colors hover:text-[#B47B70]">
                   How It Works
                 </a>
               </li>
