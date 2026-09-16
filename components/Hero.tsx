@@ -23,11 +23,11 @@ export default function Hero() {
             </div>
 
             <h1 className="mb-6 text-4xl font-bold leading-[1.12] tracking-tight text-[#E8E2DA] sm:text-5xl md:text-6xl">
-              Roll your compliance and <span className="bg-gradient-to-r from-[#B47B70] to-[#79514B] bg-clip-text text-transparent">capital needs into one.</span>
+              Compliance is messy. <span className="bg-gradient-to-r from-[#B47B70] to-[#79514B] bg-clip-text text-transparent">Funding is slow.</span> We fix both.
             </h1>
 
             <p className="mb-9 max-w-xl text-base leading-relaxed text-[#E8E2DA]/75 sm:text-lg">
-              420 Street helps licensed cannabis and hemp operators organise business, compliance and financial information and connect with capital providers. Lenders can review opportunities and manage the process in one place.
+              You upload only what matters. Lenders get the full picture instantly. The compliance-to-funding workflow finally moves.
             </p>
 
             <div className="max-w-xl rounded-sm border border-[#292929] bg-[#151515]/90 p-4 shadow-2xl glass-panel sm:p-5">
@@ -58,7 +58,7 @@ export default function Hero() {
                 <div className="relative flex items-start justify-between gap-4">
                   <div>
                     <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-[#555555]">Active Facility</p>
-                    <h2 className="mt-2 text-2xl font-semibold tracking-tight text-[#E8E2DA] sm:text-3xl">Facility Vault</h2>
+                    <h2 className="mt-2 text-2xl font-semibold tracking-tight text-[#E8E2DA] sm:text-3xl">CannaTerra Holdings</h2>
                   </div>
                   <span className="inline-flex items-center gap-1.5 rounded-full border border-[#B47B70]/40 bg-[#B47B70]/10 px-2.5 py-1 text-[10px] font-mono uppercase tracking-wider text-[#B47B70]">
                     <span className="h-1.5 w-1.5 rounded-full bg-[#B47B70]" /> Compliant
@@ -85,7 +85,7 @@ export default function Hero() {
                   </div>
                   <div className="mt-4 grid gap-3 sm:grid-cols-2">
                     <div className="flex items-center gap-2 text-xs text-[#E8E2DA]/80"><ShieldCheck className="h-4 w-4 text-[#B47B70]" /> Dual-layer KYB/KYC</div>
-                    <div className="flex items-center gap-2 text-xs text-[#E8E2DA]/80"><CheckCircle2 className="h-4 w-4 text-[#B47B70]" /> State license active</div>
+                    <div className="flex items-center gap-2 text-xs text-[#E8E2DA]/80"><CheckCircle2 className="h-4 w-4 text-[#B47B70]" /> GACP/GMP certification</div>
                   </div>
                 </div>
 

@@ -9,7 +9,7 @@ export default function FeatureGrid() {
       label: "Structured Due Diligence",
       title: "Compliance Profile",
       description:
-        "KYB/KYC, licensing, cannabis compliance and supporting records in one structured profile.",
+        "Australia, USA, Thailand, Germany and other regulated international markets.",
       points: [
         "Business, ownership and identity information",
         "Licence and certification records",
