@@ -67,7 +67,7 @@ export default function WaitlistForm({
             placeholder={placeholderText}
             disabled={status === "loading"}
             required
-            className="w-full px-5 py-4 bg-[#151515] border border-[#292929] focus:border-[#B47B70] text-[#E8E2DA] placeholder-[#555555] rounded-sm text-sm focus:outline-none transition-all duration-300 shadow-inner"
+            className="w-full px-5 py-4 bg-[#151515] border border-[#292929] focus:border-[#B47B70] text-[#E8E2DA] placeholder-[#999999] rounded-sm text-sm focus:outline-none transition-all duration-300 shadow-inner"
           />
         </div>
 
@@ -105,7 +105,7 @@ export default function WaitlistForm({
         </div>
       )}
 
-      <p className="mt-3 text-[11px] text-[#555555] flex items-center gap-1.5 font-mono">
+      <p className="mt-3 text-[11px] text-[#999999] flex items-center gap-1.5 font-mono">
         <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#79514B]"></span>
         Your information is only shared according to the permissions you provide.
       </p>

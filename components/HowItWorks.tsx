@@ -31,7 +31,7 @@ export default function HowItWorks() {
           <h2 className="mt-5 max-w-3xl text-3xl font-bold leading-tight tracking-tight text-[#E8E2DA] sm:text-4xl md:text-5xl">
             The right information. Ready when capital providers need it.
           </h2>
-          <p className="mt-6 max-w-2xl text-base leading-relaxed text-[#555555] sm:text-lg">
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-[#999999] sm:text-lg">
             Build one structured profile for compliance reviews and funding conversations.
           </p>
         </div>

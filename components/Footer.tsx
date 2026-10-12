@@ -20,7 +20,7 @@ export default function Footer() {
                 className="object-contain object-left"
               />
             </div>
-            <p className="max-w-md text-sm leading-relaxed text-[#555555]">
+            <p className="max-w-md text-sm leading-relaxed text-[#999999]">
               420 Street provides compliance, information-sharing and deal-workflow software for cannabis and hemp operators and capital providers.
             </p>
           </div>
@@ -59,18 +59,19 @@ export default function Footer() {
             <h2 className="mb-5 text-xs font-mono uppercase tracking-[0.18em] text-[#B47B70]">
               Data &amp; Access
             </h2>
-            <p className="text-sm leading-relaxed text-[#555555]">
+            <p className="text-sm leading-relaxed text-[#999999]">
               Operators control what they share. Capital providers access only the information they need.
             </p>
           </div>
         </div>
 
         {/* Disclaimer and legal links */}
-        <div className="flex flex-col gap-6 pt-8 text-xs text-[#555555] md:flex-row md:items-end md:justify-between">
+        <div className="flex flex-col gap-6 pt-8 text-xs text-[#999999] md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl space-y-2 leading-relaxed">
             <p className="text-[#E8E2DA]/65">
-              420 Street is a software provider. We do not provide financial advice, lending, brokerage or investment services.
+              420 Street is currently in early development. Our capital facility and invoice-factoring products will commence only once the required registrations, licences and authorisations are in place. All financial information shown is indicative and for illustrative purposes only.
             </p>
+            <p>420 Street is operated by Caird Capital Pty Ltd (ABN 30 693 472 534).</p>
             <p>&copy; {year} 420 STREET. All rights reserved.</p>
           </div>
 

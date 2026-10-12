@@ -9,7 +9,7 @@ export default function FeatureGrid() {
       label: "Structured Due Diligence",
       title: "Compliance Profile",
       description:
-        "Australia, USA, Thailand, Germany and other regulated international markets.",
+      "Launching first in Thailand, with trade routes to Australia and Europe.",
       points: [
         "Business, ownership and identity information",
         "Licence and certification records",
@@ -52,7 +52,7 @@ export default function FeatureGrid() {
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-[#E8E2DA] sm:text-4xl md:text-5xl">
             Three Pillars of Connected Infrastructure
           </h2>
-          <p className="mt-5 max-w-2xl text-base leading-relaxed text-[#555555] sm:text-lg">
+          <p className="mt-5 max-w-2xl text-base leading-relaxed text-[#999999] sm:text-lg">
             Built to organise the information and workflows behind compliance and capital decisions.
           </p>
         </div>

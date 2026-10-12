@@ -25,7 +25,7 @@ export default function TargetAudience() {
           <h2 className="mt-3 text-3xl font-bold leading-tight tracking-tight text-[#E8E2DA] sm:text-4xl md:text-5xl">
             Built for Capital &amp; Operations
           </h2>
-          <p className="mt-5 text-base leading-relaxed text-[#555555] sm:text-lg">
+          <p className="mt-5 text-base leading-relaxed text-[#999999] sm:text-lg">
             Providing a neutral, secure infrastructure that aligns the requirements of institutional debt with operational realities.
           </p>
         </div>

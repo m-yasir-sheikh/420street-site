@@ -43,7 +43,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-2 text-[#555555] hover:text-[#E8E2DA] transition-colors"
+          className="absolute top-4 right-4 p-2 text-[#999999] hover:text-[#E8E2DA] transition-colors"
           aria-label="Close"
         >
           <X className="w-5 h-5" />
@@ -57,7 +57,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
           <h3 className="text-xl font-bold uppercase tracking-wide text-[#E8E2DA]">
             CONNECT WITH THE 420 STREET TEAM
           </h3>
-          <p className="text-xs text-[#555555] mt-1">
+          <p className="text-xs text-[#999999] mt-1">
             Partnership inquiries, press, or platform questions.
           </p>
         </div>
@@ -66,7 +66,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
           <div className="py-12 text-center flex flex-col items-center justify-center gap-3">
             <CheckCircle2 className="w-12 h-12 text-[#B47B70]" />
             <h4 className="text-base font-bold uppercase text-[#E8E2DA]">Message Sent!</h4>
-            <p className="text-xs text-[#555555]">
+            <p className="text-xs text-[#999999]">
               Thank you for reaching out. Our team will get back to you shortly.
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 placeholder="Your full name..."
-                className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#292929] focus:border-[#B47B70] text-xs text-[#E8E2DA] placeholder-[#555555] rounded-sm focus:outline-none"
+                className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#292929] focus:border-[#B47B70] text-xs text-[#E8E2DA] placeholder-[#999999] rounded-sm focus:outline-none"
               />
             </div>
 
@@ -96,7 +96,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 placeholder="name@domain.com"
-                className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#292929] focus:border-[#B47B70] text-xs text-[#E8E2DA] placeholder-[#555555] rounded-sm focus:outline-none"
+                className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#292929] focus:border-[#B47B70] text-xs text-[#E8E2DA] placeholder-[#999999] rounded-sm focus:outline-none"
               />
             </div>
 
@@ -126,7 +126,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 placeholder="Details of your request..."
-                className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#292929] focus:border-[#B47B70] text-xs text-[#E8E2DA] placeholder-[#555555] rounded-sm focus:outline-none resize-none"
+                className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#292929] focus:border-[#B47B70] text-xs text-[#E8E2DA] placeholder-[#999999] rounded-sm focus:outline-none resize-none"
               ></textarea>
             </div>
 
@@ -151,7 +151,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
         )}
 
         {/* Modal Footer Info */}
-        <div className="mt-6 pt-4 border-t border-[#292929] flex flex-col sm:flex-row items-center justify-between text-[10px] text-[#555555] font-mono gap-2">
+        <div className="mt-6 pt-4 border-t border-[#292929] flex flex-col sm:flex-row items-center justify-between text-[10px] text-[#999999] font-mono gap-2">
           <span className="flex items-center gap-1">
             <Mail className="w-3 h-3 text-[#B47B70]" /> contact@420street.com
           </span>

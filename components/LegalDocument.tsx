@@ -50,7 +50,7 @@ export default function LegalDocument({ title, textUrl }: LegalDocumentProps) {
                 {content}
               </pre>
             ) : (
-              <p className="text-sm text-[#555555]">Loading document...</p>
+              <p className="text-sm text-[#999999]">Loading document...</p>
             )}
           </div>
         </div>

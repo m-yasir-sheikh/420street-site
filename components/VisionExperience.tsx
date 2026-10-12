@@ -61,25 +61,25 @@ export default function VisionExperience() {
                   <span className="block text-2xl sm:text-3xl font-bold font-mono text-[#E8E2DA]">
                     {String(timeLeft.days).padStart(2, "0")}
                   </span>
-                  <span className="text-[10px] text-[#555555] uppercase font-mono">Days</span>
+                  <span className="text-[10px] text-[#999999] uppercase font-mono">Days</span>
                 </div>
                 <div className="p-3 bg-[#151515] border border-[#292929] rounded-sm">
                   <span className="block text-2xl sm:text-3xl font-bold font-mono text-[#E8E2DA]">
                     {String(timeLeft.hours).padStart(2, "0")}
                   </span>
-                  <span className="text-[10px] text-[#555555] uppercase font-mono">Hours</span>
+                  <span className="text-[10px] text-[#999999] uppercase font-mono">Hours</span>
                 </div>
                 <div className="p-3 bg-[#151515] border border-[#292929] rounded-sm">
                   <span className="block text-2xl sm:text-3xl font-bold font-mono text-[#E8E2DA]">
                     {String(timeLeft.minutes).padStart(2, "0")}
                   </span>
-                  <span className="text-[10px] text-[#555555] uppercase font-mono">Mins</span>
+                  <span className="text-[10px] text-[#999999] uppercase font-mono">Mins</span>
                 </div>
                 <div className="p-3 bg-[#151515] border border-[#292929] rounded-sm">
                   <span className="block text-2xl sm:text-3xl font-bold font-mono text-[#B47B70]">
                     {String(timeLeft.seconds).padStart(2, "0")}
                   </span>
-                  <span className="text-[10px] text-[#555555] uppercase font-mono">Secs</span>
+                  <span className="text-[10px] text-[#999999] uppercase font-mono">Secs</span>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function VisionExperience() {
                   <span className="w-3 h-3 rounded-full bg-[#292929]" />
                   <span className="w-3 h-3 rounded-full bg-[#292929]" />
                 </div>
-                <div className="text-[10px] font-mono text-[#555555] truncate max-w-[200px]">
+                <div className="text-[10px] font-mono text-[#999999] truncate max-w-[200px]">
                   https://420street.com/coming-soon
                 </div>
                 <div className="flex items-center gap-1 text-[#B47B70]">
@@ -133,7 +133,7 @@ export default function VisionExperience() {
                   <h4 className="text-xl sm:text-2xl font-bold uppercase text-[#E8E2DA] max-w-sm mb-2">
                     420 STREET PLATFORM
                   </h4>
-                  <p className="text-xs text-[#555555]">
+                  <p className="text-xs text-[#999999]">
                     The full interface is currently accessible exclusively in closed beta to verified members.
                   </p>
                 </div>

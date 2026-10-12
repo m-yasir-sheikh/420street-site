@@ -72,7 +72,7 @@ export default function Presentation() {
               FOUR FOUNDATIONAL PILLARS
             </h2>
           </div>
-          <p className="text-sm text-[#555555] max-w-md">
+          <p className="text-sm text-[#999999] max-w-md">
             Explore the core structure and philosophy driving 420 STREET across its key components.
           </p>
         </div>
