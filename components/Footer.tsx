@@ -1,83 +1,84 @@
-"use client";
-
 import Image from "next/image";
+import Link from "next/link";
+
+const LINKEDIN_URL = "https://www.linkedin.com/in/gen-caird-CA";
+const CONTACT_EMAIL = "gen@420street.com.au";
 
 export default function Footer() {
-  const year = new Date().getFullYear();
-
   return (
-    <footer className="border-t border-[#292929] bg-[#0A0A0A] pb-10 pt-16 text-[#E8E2DA]">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-12 border-b border-[#292929] pb-12 md:grid-cols-12 md:gap-10">
-          {/* Brand */}
-          <div className="space-y-5 md:col-span-6">
-            <div className="relative h-9 w-40">
-              <Image
-                src="/logo-white.png"
-                alt="420 STREET"
-                fill
-                sizes="160px"
-                className="object-contain object-left"
-              />
+    <footer className="bg-ink px-6 text-paper">
+      <div className="mx-auto w-full max-w-6xl py-16">
+        <div className="flex flex-col justify-between gap-12 md:flex-row">
+          <div>
+            <Image
+              src="/logo-white.png"
+              alt="420 Street"
+              width={162}
+              height={80}
+              className="h-8 w-auto"
+            />
+            <p className="mt-4 text-sm text-on-dark-muted">Compliance · Capital · Cashflow</p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3">
+            <div className="flex flex-col gap-2.5">
+              <p className="text-xs font-semibold tracking-[0.12em] text-on-dark-muted uppercase">
+                Platform
+              </p>
+              <Link href="/how-it-works" className="text-[15px] hover:underline">
+                How it works
+              </Link>
+              <Link href="/#who" className="text-[15px] hover:underline">
+                Who it&rsquo;s for
+              </Link>
             </div>
-            <p className="max-w-md text-sm leading-relaxed text-[#999999]">
-              420 Street provides compliance, information-sharing and deal-workflow software for cannabis and hemp operators and capital providers.
-            </p>
-          </div>
 
-          {/* Platform links */}
-          <div className="md:col-span-3">
-            <h2 className="mb-5 text-xs font-mono uppercase tracking-[0.18em] text-[#B47B70]">
-              Platform
-            </h2>
-            <ul className="space-y-3 text-sm text-[#E8E2DA]/75">
-              <li>
-                <a href="/#waitlist" className="transition-colors hover:text-[#B47B70]">
-                  Early Access
-                </a>
-              </li>
-              <li>
-                <a href="/#features" className="transition-colors hover:text-[#B47B70]">
-                  Capabilities
-                </a>
-              </li>
-              <li>
-                <a href="/#audience" className="transition-colors hover:text-[#B47B70]">
-                  Solutions
-                </a>
-              </li>
-              <li>
-                <a href="/#how-it-works" className="transition-colors hover:text-[#B47B70]">
-                  How It Works
-                </a>
-              </li>
-            </ul>
-          </div>
+            <div className="flex flex-col gap-2.5">
+              <p className="text-xs font-semibold tracking-[0.12em] text-on-dark-muted uppercase">
+                Company
+              </p>
+              <Link href="/about" className="text-[15px] hover:underline">
+                About
+              </Link>
+              <Link href="/contact" className="text-[15px] hover:underline">
+                Contact
+              </Link>
+              <a
+                href={LINKEDIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[15px] hover:underline"
+              >
+                LinkedIn
+              </a>
+            </div>
 
-          {/* Data & access */}
-          <div className="md:col-span-3">
-            <h2 className="mb-5 text-xs font-mono uppercase tracking-[0.18em] text-[#B47B70]">
-              Data &amp; Access
-            </h2>
-            <p className="text-sm leading-relaxed text-[#999999]">
-              Operators control what they share. Capital providers access only the information they need.
-            </p>
+            <div className="flex flex-col gap-2.5">
+              <p className="text-xs font-semibold tracking-[0.12em] text-on-dark-muted uppercase">
+                Contact
+              </p>
+              <a href={`mailto:${CONTACT_EMAIL}`} className="text-[15px] hover:underline">
+                {CONTACT_EMAIL}
+              </a>
+              <span className="text-[15px] text-on-dark-muted">Western Australia</span>
+            </div>
           </div>
         </div>
 
-        {/* Disclaimer and legal links */}
-        <div className="flex flex-col gap-6 pt-8 text-xs text-[#999999] md:flex-row md:items-end md:justify-between">
-          <div className="max-w-2xl space-y-2 leading-relaxed">
-            <p className="text-[#E8E2DA]/65">
-              420 Street is currently in early development. Our capital facility and invoice-factoring products will commence only once the required registrations, licences and authorisations are in place. All financial information shown is indicative and for illustrative purposes only.
-            </p>
-            <p>420 Street is operated by Caird Capital Pty Ltd (ABN 30 693 472 534).</p>
-            <p>&copy; {year} 420 STREET. All rights reserved.</p>
-          </div>
-
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
-            <a href="/privacy" className="transition-colors hover:text-[#E8E2DA]">Privacy Policy</a>
-            <a href="/terms" className="transition-colors hover:text-[#E8E2DA]">Terms of Use</a>
+        <div className="mt-14 flex flex-col gap-4 border-t border-ink-line pt-8">
+          <p className="max-w-3xl text-[13px] leading-relaxed text-on-dark-muted">
+            Capital and cashflow launch once the required approvals are in place. Until then,
+            nothing on this site is an offer of finance, or legal or financial advice. Product
+            screens show illustrative data.
+          </p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-on-dark-muted">
+            <p>© 2026 420 Street&trade;</p>
+            <Link href="/privacy" className="hover:underline">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:underline">
+              Terms
+            </Link>
           </div>
         </div>
       </div>

@@ -1,61 +1,54 @@
-"use client";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 
-import { useEffect, useState } from "react";
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "@/components/Footer";
+import PageHero from "@/components/PageHero";
 
 interface LegalDocumentProps {
   title: string;
-  textUrl: string;
+  /** Path relative to `public/`, e.g. `legal/privacy-policy.txt`. */
+  textPath: string;
 }
 
-export default function LegalDocument({ title, textUrl }: LegalDocumentProps) {
-  const [content, setContent] = useState("");
-  const [error, setError] = useState(false);
+export default async function LegalDocument({ title, textPath }: LegalDocumentProps) {
+  let content = "";
+  let failed = false;
 
-  useEffect(() => {
-    let active = true;
+  try {
+    content = await readFile(path.join(process.cwd(), "public", textPath), "utf8");
+  } catch {
+    failed = true;
+  }
 
-    fetch(textUrl)
-      .then((response) => {
-        if (!response.ok) throw new Error("Unable to load document");
-        return response.text();
-      })
-      .then((text) => {
-        if (active) setContent(text);
-      })
-      .catch(() => {
-        if (active) setError(true);
-      });
-
-    return () => {
-      active = false;
-    };
-  }, [textUrl]);
+  // The source files repeat the document title on the first line, which PageHero already renders.
+  const lines = content.split("\n");
+  if (lines[0]?.trim() === title) {
+    content = lines.slice(1).join("\n").trimStart();
+  }
 
   return (
-    <>
-      <Header />
-      <main className="min-h-screen bg-[#0A0A0A] px-4 pb-20 pt-32 text-[#E8E2DA] sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl">
-          <div className="mb-8 border-b border-[#292929] pb-6">
-            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{title}</h1>
-          </div>
+    <main>
+      <PageHero eyebrow="Legal" title={title} />
 
-          <div className="rounded-sm border border-[#292929] bg-[#151515] p-5 shadow-2xl sm:p-8">
-            {error ? (
-              <p className="text-sm text-red-400">Unable to load this document.</p>
-            ) : content ? (
-              <pre className="whitespace-pre-wrap break-words font-sans text-sm leading-7 text-[#E8E2DA]/85 sm:text-base">
-                {content}
-              </pre>
-            ) : (
-              <p className="text-sm text-[#999999]">Loading document...</p>
-            )}
-          </div>
+      <section className="bg-paper px-6 py-16 sm:py-20">
+        <div className="mx-auto w-full max-w-3xl">
+          {failed ? (
+            <p className="text-[15px] text-muted">
+              This document could not be loaded. Please email{" "}
+              <a href="mailto:gen@420street.com.au" className="underline">
+                gen@420street.com.au
+              </a>{" "}
+              and we&rsquo;ll send you a copy.
+            </p>
+          ) : (
+            <pre className="font-sans text-[15px] leading-7 break-words whitespace-pre-wrap text-ink-soft">
+              {content}
+            </pre>
+          )}
         </div>
-      </main>
+      </section>
+
       <Footer />
-    </>
+    </main>
   );
 }
